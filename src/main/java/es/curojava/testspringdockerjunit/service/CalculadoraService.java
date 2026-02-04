@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CalculadoraService {
 
-    public int sumar(int a, int b) {
+    public Integer sumar (Integer a, Integer b) {
         return a + b;
     }
 }
